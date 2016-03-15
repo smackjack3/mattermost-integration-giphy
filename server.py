@@ -9,7 +9,7 @@ from flask import Response
 app = Flask(__name__)
 
 USERNAME = 'giphy' # username the bot posts as
-ICON_URL = 'http://api.giphy.com/img/api_giphy_logo.png' # display picture the bot posts with
+ICON_URL = 'http://api.giphy.com/img/api_giphy_header.gif' # display picture the bot posts with
 RATING = 'pg-13' # the maximum parental rating of gifs posted (y, pg, pg-13, r)
 
 GIPHY_API_KEY = 'dc6zaTOxFJmzC' # this is a public beta key, for production use you must go to http://api.giphy.com/submit and request a production key
